@@ -1,0 +1,246 @@
+.body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* Mobile css */
+
+/* home section */
+nav{
+    display: flex;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgb(44, 43, 43);
+}
+.nav-menu{
+    flex-direction: column;
+    text-decoration: none;
+    margin: 0.2rem;
+    color: white;
+    letter-spacing: 0.1mm;
+    text-align: center;
+    width: 25%;
+
+}
+.nav-menu:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+/* about section */
+.title{
+    padding: 1.2rem;
+    text-align: center;
+    letter-spacing: 0.1mm;
+}
+
+.about{
+    display: flex;
+
+}
+.me{
+    width: 50%;
+    border-left: 0;
+    border-right: 0;
+
+}
+.myinfo{
+    font-style: oblique;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+/*  services section */
+
+.card{
+    padding-top: 0.8rem;
+    margin-bottom: 1.2rem;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    
+    border: solid 2px whitesmoke;
+
+}
+.card h5{
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+}
+.serve{
+    display: flex;
+    width: 100%;
+}
+.serve-photo{
+    background-color: white;
+    padding: 2rem;
+
+    width: 10%;
+}
+.serve p{
+    padding-left: 1.2em;
+    width: 80%;
+}
+
+/* contact section */
+.details{
+    font-style:oblique;
+    text-indent: 10%;
+    letter-spacing: 0.2mm;
+}
+
+/* footer section */
+.social{
+    display: flex;
+    width: 100%;
+    padding-top: 2rem;
+}
+.page{
+    width: 50%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 3rem;
+}
+
+/* copyright section */
+.copy{
+    padding-top: 2rem;
+    font-size: 0.8em;
+    font-weight: lighter;
+    font-style: oblique;
+    text-align: center;
+}
+
+/* large screens */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    /* home section */
+    nav{
+        display: flex;
+        padding-left: 5rem;
+        background-color: rgb(44, 43, 43);
+    }
+    .nav-menu{
+        flex-direction: column;
+        text-decoration: none;
+        margin: 0.2rem;
+        color: white;
+        letter-spacing: 0.1mm;
+        text-align: center;
+        width: 25%;
+
+    }
+    .nav-menu:hover{
+        text-decoration: underline;
+        text-decoration-thickness: 5px;
+    }
+    /* about section */
+    .title{
+        padding: 1.2rem;
+        text-align: center;
+        letter-spacing: 0.1mm;
+        margin-left: 25%;
+        margin-right: 25%;
+        border: solid 5px rgb(44, 43, 43);
+        border-top: 0;
+        border-bottom:0;
+    }
+    .here{
+        margin-left: 25%;
+        margin-right: 25%;
+        border: solid 5px rgb(44, 43, 43);
+        border-bottom: 0
+    }
+
+    .about{
+        display: flex;
+        height: 50vh;
+        margin-left: 25%;
+        margin-right: 25%;
+        border: solid 5px rgb(44, 43, 43);
+        border-top: 0;
+        border-bottom:0;
+    }
+    .me{
+        width: 50%;
+
+
+    }
+    .myinfo{
+        font-style: oblique;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    /*  services section */
+    .services{
+        margin-left: 25%;
+        margin-right: 25%;
+        border: solid 5px rgb(44, 43, 43);
+        border-top: 0;
+        border-bottom:0;
+    }
+
+    .card{
+        padding-top: 0.8rem;
+        height: 25vh;
+        background-color: rgb(44, 43, 43);
+        color: white;
+
+
+    }
+    .card h5{
+        text-align: center;
+        font-weight: bold;
+        font-style: oblique;
+    }
+    .serve{
+        display: flex;
+        width: 100%;
+    }
+    .serve-photo{
+        background-color: white;
+        padding: 2rem;
+        width: 10%;
+    }
+    .serve p{
+        padding-left: 1.2em;
+        width: 80%;
+    }
+
+    /* contact section */
+    .details{
+        margin-left: 25%;
+        margin-right: 25%;
+        font-style:oblique;
+        text-indent: 10%;
+        letter-spacing: 0.2mm;
+        border: solid 5px rgb(44, 43, 43);
+        border-top: 0;
+
+    }
+
+    /* footer section */
+    .social{
+        margin-left: 25%;
+        margin-right: 25%;
+        padding-bottom: 2rem;
+        display: flex;
+        width: 100%;
+    }
+    .page{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    /* copyright section */
+    .copy{
+        padding-top: 2rem;
+        font-size: 0.8em;
+        font-weight: lighter;
+        font-style: oblique;
+        text-align: center;
+    }
+}
